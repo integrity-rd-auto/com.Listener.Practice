@@ -115,3 +115,11 @@
 2020-07-03 19:48:04,026 [TestNG-tests-2] INFO com.Listener.Practice - test001 ends Here
 2020-07-03 19:48:04,028 [TestNG-tests-2] INFO com.Listener.Practice - test002 starts Here
 2020-07-03 19:48:04,048 [TestNG-tests-2] INFO com.Listener.Practice - test002 ends Here
+2020-07-03 21:31:11,715 [TestNG-tests-1] INFO com.Listener.Practice - test001 starts Here
+2020-07-03 21:31:11,765 [TestNG-tests-1] INFO com.Listener.Practice - test001 ends Here
+2020-07-03 21:31:11,784 [TestNG-tests-1] INFO com.Listener.Practice - test002 starts Here
+2020-07-03 21:31:11,835 [TestNG-tests-1] INFO com.Listener.Practice - test002 ends Here
+2020-07-03 21:31:15,247 [TestNG-tests-2] INFO com.Listener.Practice - test001 starts Here
+2020-07-03 21:31:15,253 [TestNG-tests-2] INFO com.Listener.Practice - test001 ends Here
+2020-07-03 21:31:15,255 [TestNG-tests-2] INFO com.Listener.Practice - test002 starts Here
+2020-07-03 21:31:15,276 [TestNG-tests-2] INFO com.Listener.Practice - test002 ends Here
