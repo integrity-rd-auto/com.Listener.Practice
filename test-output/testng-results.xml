@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24325" started-at="2020-07-04T09:27:21 IST" finished-at="2020-07-04T09:27:45 IST">
+  <suite name="Suite" duration-ms="143186" started-at="2020-07-05T20:42:38 IST" finished-at="2020-07-05T20:45:01 IST">
     <groups>
     </groups>
-    <test name="Chrome Test10" duration-ms="24325" started-at="2020-07-04T09:27:21 IST" finished-at="2020-07-04T09:27:45 IST">
-      <class name="TestCases.BrowserStackSampleTest2">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.BrowserStackSampleTest2@ea1a8d5]" name="setup" is-config="true" duration-ms="8413" started-at="2020-07-04T09:27:21 IST" finished-at="2020-07-04T09:27:29 IST">
+    <test name="Chrome Test10" duration-ms="143186" started-at="2020-07-05T20:42:38 IST" finished-at="2020-07-05T20:45:01 IST">
+      <class name="TestCases.BrowserStackSampleTest3">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.BrowserStackSampleTest3@33c7e1bb]" name="setup" is-config="true" duration-ms="136828" started-at="2020-07-05T20:42:38 IST" finished-at="2020-07-05T20:44:55 IST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="simpleTest()[pri:0, instance:TestCases.BrowserStackSampleTest2@ea1a8d5]" name="simpleTest" duration-ms="15665" started-at="2020-07-04T09:27:29 IST" finished-at="2020-07-04T09:27:45 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.BrowserStackSampleTest3@33c7e1bb]" name="setUp" is-config="true" duration-ms="1990" started-at="2020-07-05T20:44:55 IST" finished-at="2020-07-05T20:44:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:TestCases.BrowserStackSampleTest3@33c7e1bb]" name="simpleTest" duration-ms="3155" started-at="2020-07-05T20:44:57 IST" finished-at="2020-07-05T20:45:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleTest -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:TestCases.BrowserStackSampleTest2@ea1a8d5]" name="terminate" is-config="true" duration-ms="0" started-at="2020-07-04T09:27:45 IST" finished-at="2020-07-04T09:27:45 IST">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:TestCases.BrowserStackSampleTest3@33c7e1bb]" name="terminate" is-config="true" duration-ms="1028" started-at="2020-07-05T20:45:00 IST" finished-at="2020-07-05T20:45:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- TestCases.BrowserStackSampleTest2 -->
+      </class> <!-- TestCases.BrowserStackSampleTest3 -->
     </test> <!-- Chrome Test10 -->
   </suite> <!-- Suite -->
 </testng-results>

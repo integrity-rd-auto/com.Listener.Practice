@@ -7,27 +7,25 @@
 	<test thread-count="5" name="Chrome Test8">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="TestCases.BrowserStackSampleTest" />
+			<class name="TestCases.BrowserStackSampleTest2" />
 		</classes>
 	</test>
-
 	<test thread-count="5" name="Firefox Test8">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="TestCases.BrowserStackSampleTest" />
+			<class name="TestCases.BrowserStackSampleTest2" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Chrome Test10">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="TestCases.BrowserStackSampleTest2" />
+			<class name="TestCases.BrowserStackSampleTest3" />
 		</classes>
 	</test>
-
 	<test thread-count="5" name="Firefox Test10">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="TestCases.BrowserStackSampleTest2" />
+			<class name="TestCases.BrowserStackSampleTest3" />
 		</classes>
 	</test>
 </suite>

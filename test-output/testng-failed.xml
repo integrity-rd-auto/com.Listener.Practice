@@ -5,27 +5,42 @@
     <listener class-name="Utility.Reporting"/>
   </listeners>
   <test thread-count="5" name="Firefox Test8(failed)" parallel="tests">
-    <parameter name="browser" value="firefox8"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="TestCases.BrowserStackSampleTest">
+      <class name="TestCases.BrowserStackSampleTest2">
         <methods>
-          <include name="setup"/>
           <include name="terminate"/>
+          <include name="setUp"/>
+          <include name="setup"/>
           <include name="simpleTest"/>
         </methods>
-      </class> <!-- TestCases.BrowserStackSampleTest -->
+      </class> <!-- TestCases.BrowserStackSampleTest2 -->
     </classes>
   </test> <!-- Firefox Test8(failed) -->
-  <test thread-count="5" name="Chrome Test8(failed)" parallel="tests">
-    <parameter name="browser" value="chrome8"/>
+  <test thread-count="5" name="Firefox Test10(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="TestCases.BrowserStackSampleTest">
+      <class name="TestCases.BrowserStackSampleTest3">
         <methods>
           <include name="setup"/>
+          <include name="setUp"/>
           <include name="terminate"/>
           <include name="simpleTest"/>
         </methods>
-      </class> <!-- TestCases.BrowserStackSampleTest -->
+      </class> <!-- TestCases.BrowserStackSampleTest3 -->
     </classes>
-  </test> <!-- Chrome Test8(failed) -->
+  </test> <!-- Firefox Test10(failed) -->
+  <test thread-count="5" name="Chrome Test10(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.BrowserStackSampleTest3">
+        <methods>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="terminate"/>
+          <include name="simpleTest"/>
+        </methods>
+      </class> <!-- TestCases.BrowserStackSampleTest3 -->
+    </classes>
+  </test> <!-- Chrome Test10(failed) -->
 </suite> <!-- Failed suite [Suite] -->
